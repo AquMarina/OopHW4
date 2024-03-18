@@ -25,12 +25,6 @@ public class Main {
         library.addBook(new Book<>("With Love", "Melko N.M.", libraryCard3));
         library.addBook(new Book<>("Aravia", "Baranova F.N.", libraryCard4));
 
-        // Добавление библиотечных карточек на вывод.
-        // libraryCard1.setNumberCard(002);
-        // libraryCard2.setNumberCard(001);
-        // libraryCard3.setNumberCard(003);
-        // libraryCard4.setInfoBook("Книга о косметике.");
-
         // Вывод библиотченых карточек книг, которые были выданы.
         library.displayLibraryCard(libraryCard1);
         library.displayLibraryCard(libraryCard2);

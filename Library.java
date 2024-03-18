@@ -8,8 +8,6 @@ import java.util.List;
 
 public class Library<T, K, V> {
     private List<Book<T>> catalog;
-    private int cardCounter;
-
     private List<LibraryCard<K, V>> list;
 
     public Library() {
@@ -63,6 +61,6 @@ public class Library<T, K, V> {
 
     @Override
     public String toString() {
-        return "Книги: \n" + catalog + "\n" + "Библиотечные карточки: \n" + list;
+        return "Книги: \n" + catalog + "\nБиблиотечные карточки: \n" + list;
     }
 }
