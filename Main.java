@@ -26,10 +26,10 @@ public class Main {
         library.addBook(new Book<>("Aravia", "Baranova F.N.", libraryCard4));
 
         // Вывод библиотченых карточек книг, которые были выданы.
-        library.displayLibraryCard(libraryCard1);
-        library.displayLibraryCard(libraryCard2);
-        library.displayLibraryCard(libraryCard3);
-        library.displayLibraryCard(libraryCard4);
+        // library.displayLibraryCard(libraryCard1);
+        // library.displayLibraryCard(libraryCard2);
+        // library.displayLibraryCard(libraryCard3);
+        // library.displayLibraryCard(libraryCard4);
 
         // System.out.println(library.getList().get(0));
         // for (LibraryCard<Integer, String> card : library.getList()) {
